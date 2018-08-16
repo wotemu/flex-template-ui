@@ -1,49 +1,41 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const FooterLinks = () => (
   <div>
     <div className="row ">
         <div className="col-6 colfooter">      
           <ul className="float-left">
-            <li className="left-link"><Link className="link" to="/rentals">How it works</Link></li>
-            <li className="left-link"><Link className="link" to="/rentals">Privacy Policy</Link></li>
-            <li className="left-link"><Link className="link" to="/rentals">Terms of use</Link></li>
-            <li className="left-link"><Link className="link" to="/rentals">Contact</Link></li>
-          </ul>
-                
-          
+            <li className="left-link">Pedal.world is developed by Dataridoo Oy</li>
+            <li className="left-link">We are based in Helsinki, Finland </li>
+           </ul>
         </div>
 
         <div className="col-6 colfooter social">
           <ul className="float-right">  
             <li className="left-link">
-              <Link className="link"  to="/rentals">
-                <i className="fa fa-camera"></i>
-              </Link>
+              <a className="link"  href="https://www.instagram.com/pedal.world.europe/">
+                <i className="fa fa-instagram"></i>
+              </a>
             </li>
             <li className="left-link">           
-                <Link className="link" to="/rentals"> 
+                <a className="link" href="https://twitter.com/pedalworld/"> 
                   <i className="fa fa-twitter"></i>
-                </Link>        
+                </a>        
             </li>
             <li className="left-link">
-            <Link className="link" to="/rentals">
+            <a className="link" href="https://www.facebook.com/pedalworld/">
               <i className="fa fa-youtube-play"></i>
-            </Link>
+            </a>
           </li>
             <li className="left-link">
-              <Link className="link" to="/rentals">
+              <a className="link" href="https://www.facebook.com/pedalworld/">
                 <i className="fa fa-facebook"></i>
-              </Link>
+              </a>
             </li>
           </ul>
         </div>      
     </div>
-    <div className="row">
-        <div className="col-12 copy-right">&copy;pedal.world 2018
-        </div> 
-    </div>
+    
   </div>
 )
 

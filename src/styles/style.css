@@ -160,3 +160,79 @@ i.fa {
   font-size: 20px;
   font-weight: bold;
 }
+.formCenter{
+  text-align: center;
+  margin-left: 300px;
+}
+.marginMedium{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.backgroundBlueHeight{
+  height: 60px;
+  border-radius: 0;
+  width: 140px;
+  background-color: #fff;
+  font-weight: bold;
+}
+.backgroundBlue{
+  background-color:rgb(30, 184, 255);
+  color: white;
+  height: 60px;
+  width: 240px;
+  border-radius: 0;
+  font-size: 18px;
+}
+
+.heroInterestedBody{
+  color: whitesmoke;
+  text-align: center;
+  padding: 30px;
+ 
+}
+.heroInterestedHeader{
+  font-weight: bold;
+  font-size: 60px;
+  padding: 20px;
+ 
+}
+.textPlaceholder{
+  margin: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  text-align: justify;
+}
+.textPlaceholderbold{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+.chimpForm{
+  
+}
+.textPlaceholderContactUs{
+ 
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color:whitesmoke;
+  text-align: center;
+}
+.textPlaceholderContactUsHeader{
+  color: rgb(30, 184, 255);
+  font-size: 60px;
+}
+.contactUsNow{
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+}
+.heroInterestedContent{
+  padding-bottom: 30px;
+}
+.heroInterested{
+  background-color:rgb(30, 184, 255);
+}
